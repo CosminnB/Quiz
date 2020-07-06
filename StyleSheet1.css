@@ -1,0 +1,38 @@
+﻿body {
+    background-color:#FF7F50 !important;
+}
+h1{
+    font-size:100px !important;
+}
+.take, .add, .confirm{
+    display:none;
+}
+.show{
+    display:block;
+    margin:auto;
+    width:50%;
+    text-align:center;
+    padding:40px;
+    margin-bottom:20px;
+}
+.appear{
+    display:block;
+    opacity:0;
+    animation:fade 4s linear;
+}
+@keyframes fade{
+    0%,100%{opacity:0}
+    50%{opacity:1}
+
+}
+.answers label{
+    border:1px solid black;
+    border-radius:8px;
+    padding:5px;
+    background-color:#DCDCDC;
+}
+.add input{
+    border-radius:8px;
+    border:1px solid black;
+    padding:3px;
+}
